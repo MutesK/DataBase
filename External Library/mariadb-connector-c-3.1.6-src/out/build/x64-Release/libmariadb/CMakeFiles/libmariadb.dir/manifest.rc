@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/out/build/x64-Release/libmariadb/CMakeFiles/libmariadb.dir/embed.manifest"

@@ -1,0 +1,437 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						7,
+						11,
+						21,
+						26,
+						27,
+						30
+					]
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "libmariadb",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libmariadb",
+					"targetIndexes" : 
+					[
+						16,
+						19
+					]
+				},
+				{
+					"build" : "unittest/mytap",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unittest/mytap",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "unittest/libmariadb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unittest/libmariadb",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						6,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18,
+						20,
+						22,
+						23,
+						24,
+						25,
+						28,
+						29,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "mariadb-connector-c",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "async::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-async-Debug-75fe5704f000106c18df.json",
+					"name" : "async",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auth_gssapi_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auth_gssapi_client-Debug-3eadfb1c44f5e480f667.json",
+					"name" : "auth_gssapi_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "basic-t::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-basic-t-Debug-f3031939045beeca110a.json",
+					"name" : "basic-t",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bulk1::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-bulk1-Debug-e4b3a28930abde6cc38a.json",
+					"name" : "bulk1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "caching_sha2_password::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-caching_sha2_password-Debug-a0bae50be404654fe135.json",
+					"name" : "caching_sha2_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cctap::@985555b84cdc3806b8a2",
+					"jsonFile" : "target-cctap-Debug-af9b3cb6b6f8504bc633.json",
+					"name" : "cctap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "charset::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-charset-Debug-1138a0a98046dc380bd6.json",
+					"name" : "charset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_ed25519::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_ed25519-Debug-44699d3001521e0335f7.json",
+					"name" : "client_ed25519",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "conc336::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-conc336-Debug-32ebc20aa55b75d10648.json",
+					"name" : "conc336",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "connection::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-connection-Debug-0e3a1ff580f327dc5725.json",
+					"name" : "connection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "cursor::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-cursor-Debug-db06a40b37a011d694d4.json",
+					"name" : "cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dialog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dialog-Debug-954e4008ce7c11a4efc1.json",
+					"name" : "dialog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dyncol::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-dyncol-Debug-b1f269c696b939071bdc.json",
+					"name" : "dyncol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "errors::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-errors-Debug-a3f53c4b3fa65b20262a.json",
+					"name" : "errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "features-10_2::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-features-10_2-Debug-0ba1f356ede923aa1dc9.json",
+					"name" : "features-10_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fetch::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-fetch-Debug-d0ac0a5f04650e829c10.json",
+					"name" : "fetch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libmariadb::@e15ef724672515c9086e",
+					"jsonFile" : "target-libmariadb-Debug-299bf51fbca28d6327e0.json",
+					"name" : "libmariadb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "logs::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-logs-Debug-b3bf797cefab04855901.json",
+					"name" : "logs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ma_getopt::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-ma_getopt-Debug-a9c7507a1e616bb27c1b.json",
+					"name" : "ma_getopt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mariadbclient::@e15ef724672515c9086e",
+					"jsonFile" : "target-mariadbclient-Debug-3488adc9b53b99ea3d8a.json",
+					"name" : "mariadbclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "misc::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-misc-Debug-ed4c18e1a4147159ba45.json",
+					"name" : "misc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mysql_clear_password::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mysql_clear_password-Debug-cae44b7c326fa7eda92a.json",
+					"name" : "mysql_clear_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "performance::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-performance-Debug-852b95605bcd616d0c2f.json",
+					"name" : "performance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ps::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-ps-Debug-38ba5fda7bdeb8baa708.json",
+					"name" : "ps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ps_bugs::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-ps_bugs-Debug-a58210f6e46a9f6a971c.json",
+					"name" : "ps_bugs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ps_new::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-ps_new-Debug-b9238db2031094c5f5c4.json",
+					"name" : "ps_new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pvio_npipe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pvio_npipe-Debug-4a7c92b743707980e410.json",
+					"name" : "pvio_npipe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pvio_shmem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pvio_shmem-Debug-d49d2f8db120d568cbea.json",
+					"name" : "pvio_shmem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "result::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-result-Debug-035975d0d9e689d4a8d7.json",
+					"name" : "result",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rpl_api::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-rpl_api-Debug-91e6385f7421d9f7c39d.json",
+					"name" : "rpl_api",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sha256_password::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sha256_password-Debug-19265858f33bde778808.json",
+					"name" : "sha256_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sp::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-sp-Debug-b39d0c321e20c2fe2431.json",
+					"name" : "sp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "t_aurora::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-t_aurora-Debug-2daeaa013580bce2b06a.json",
+					"name" : "t_aurora",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "t_conc173::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-t_conc173-Debug-c0deda0838475111988c.json",
+					"name" : "t_conc173",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "thread::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-thread-Debug-aab40025aac3c5a21b53.json",
+					"name" : "thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "view::@06eb0e4501ff7e8613e8",
+					"jsonFile" : "target-view-Debug-618ab727cc509d0f982d.json",
+					"name" : "view",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/out/build/x64-Debug",
+		"source" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

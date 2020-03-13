@@ -1,0 +1,4 @@
+﻿  Building Custom Rule G:/mariadb-connector-c-3.1.6-src/CMakeLists.txt
+  pvio_npipe.c
+     G:/mariadb-connector-c-3.1.6-src/Debug/pvio_npipe.lib 라이브러리 및 G:/mariadb-connector-c-3.1.6-src/Debug/pvio_npipe.exp 개체를 생성하고 있습니다.
+  pvio_npipe.vcxproj -> G:\mariadb-connector-c-3.1.6-src\Debug\pvio_npipe.dll

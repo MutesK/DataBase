@@ -1,0 +1,10 @@
+^G:\MARIADB-CONNECTOR-C-3.1.6-SRC\LIBMARIADB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/mariadb-connector-c-3.1.6-src -BG:/mariadb-connector-c-3.1.6-src --check-stamp-file G:/mariadb-connector-c-3.1.6-src/libmariadb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

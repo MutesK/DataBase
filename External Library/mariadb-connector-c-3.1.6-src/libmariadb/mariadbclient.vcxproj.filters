@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\plugins\auth\my_auth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\plugins\auth\old_password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\plugins\pvio\pvio_socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_charset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_net.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_charset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_errmsg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_pvio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_ll2str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_stmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_loaddata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_stmt_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_dtoa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_rpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_client_plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\secure\schannel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\secure\ma_schannel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\secure\schannel_certs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\win-iconv\win_iconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\win32_errmsg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_dyncol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\mariadb_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\ma_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\win32_errmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\mariadb-connector-c-3.1.6-src\libmariadb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{774EBEC2-722E-3921-BB4B-783B10A74D88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D0DDE2A3-F774-3562-AADD-F4048E39D7C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

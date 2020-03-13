@@ -1,0 +1,4 @@
+﻿  Building Custom Rule G:/mariadb-connector-c-3.1.6-src/CMakeLists.txt
+  pvio_shmem.c
+     G:/mariadb-connector-c-3.1.6-src/Debug/pvio_shmem.lib 라이브러리 및 G:/mariadb-connector-c-3.1.6-src/Debug/pvio_shmem.exp 개체를 생성하고 있습니다.
+  pvio_shmem.vcxproj -> G:\mariadb-connector-c-3.1.6-src\Debug\pvio_shmem.dll

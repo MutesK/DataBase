@@ -1,0 +1,278 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libmariadb/libmariadb.dll"
+		},
+		{
+			"path" : "libmariadb/libmariadb.lib"
+		},
+		{
+			"path" : "libmariadb/libmariadb.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"INSTALL",
+			"TARGET_LINK_LIBRARIES",
+			"INCLUDE_DIRECTORIES",
+			"INCLUDE",
+			"ADD_DEFINITIONS"
+		],
+		"files" : 
+		[
+			"libmariadb/CMakeLists.txt",
+			"CMakeLists.txt",
+			"plugins/auth/CMakeLists.txt",
+			"plugins/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 399,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 453,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 400,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 335,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 366,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 402,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 336,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 301,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG   -D HAVE_COMPRESS -D LIBMARIADB -D THREAD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "HAVE_DLOPEN"
+				},
+				{
+					"define" : "HAVE_SCHANNEL"
+				},
+				{
+					"define" : "HAVE_TLS"
+				},
+				{
+					"define" : "MARIADB_MACHINE_TYPE=\"AMD64\""
+				},
+				{
+					"define" : "MARIADB_SYSTEM_TYPE=\"Windows\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "SIZEOF_CHARP=8"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "libmariadb_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/plugins/pvio"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/out/build/x64-Debug/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/plugins/auth"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/libmariadb"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/win-iconv"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/zlib"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "mariadbclient::@e15ef724672515c9086e"
+		}
+	],
+	"id" : "libmariadb::@e15ef724672515c9086e",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib/mariadb"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib/mariadb"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/DataBase/External Library/mariadb-connector-c-3.1.6-src/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /DEF:\"D:\\DataBase\\External Library\\mariadb-connector-c-3.1.6-src\\libmariadb\\mariadbclient.def\"",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "mariadbclient.lib ws2_32.lib advapi32.lib kernel32.lib shlwapi.lib crypt32.lib secur32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "libmariadb",
+	"nameOnDisk" : "libmariadb.dll",
+	"paths" : 
+	{
+		"build" : "libmariadb",
+		"source" : "libmariadb"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/win/libmariadb.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libmariadb/mariadbclient.def",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

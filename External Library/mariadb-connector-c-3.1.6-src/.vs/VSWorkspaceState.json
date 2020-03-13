@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\out",
+    "\\out\\build",
+    "\\unittest\\libmariadb",
+    "\\unittest\\mytap",
+    "\\win",
+    "\\win-iconv",
+    "\\win\\packaging",
+    "\\zlib"
+  ],
+  "SelectedNode": "\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

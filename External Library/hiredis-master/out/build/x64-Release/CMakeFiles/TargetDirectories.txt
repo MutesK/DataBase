@@ -1,0 +1,6 @@
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/hiredis.dir
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/install/local.dir
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/install.dir
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/edit_cache.dir
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+D:/DataBase/External Library/hiredis-master/out/build/x64-Release/CMakeFiles/list_install_components.dir

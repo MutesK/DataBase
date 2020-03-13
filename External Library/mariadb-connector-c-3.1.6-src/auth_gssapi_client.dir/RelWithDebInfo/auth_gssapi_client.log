@@ -1,0 +1,7 @@
+﻿  Building Custom Rule G:/mariadb-connector-c-3.1.6-src/CMakeLists.txt
+  auth_gssapi_client.c
+  sspi_client.c
+  sspi_errmsg.c
+  코드를 생성하고 있습니다...
+     G:/mariadb-connector-c-3.1.6-src/RelWithDebInfo/auth_gssapi_client.lib 라이브러리 및 G:/mariadb-connector-c-3.1.6-src/RelWithDebInfo/auth_gssapi_client.exp 개체를 생성하고 있습니다.
+  auth_gssapi_client.vcxproj -> G:\mariadb-connector-c-3.1.6-src\RelWithDebInfo\auth_gssapi_client.dll

@@ -1,0 +1,10 @@
+^G:\MARIADB-CONNECTOR-C-3.1.6-SRC\CMAKEFILES\24FDD03FD2FE14F0DFC64167E944B3C0\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

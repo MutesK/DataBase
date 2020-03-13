@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataBase", "DataBase.vcxproj", "{5879CEE0-4E97-47CE-85AC-4D5487927664}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MariaDBConnector", "MariaDBConnector.vcxproj", "{94E11B26-049B-4D71-9D0E-0B1969DE3B55}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RedisConnector", "..\RedisConnector\RedisConnector.vcxproj", "{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MariaDBConnector", "..\MariaDBConnector\MariaDBConnector.vcxproj", "{94E11B26-049B-4D71-9D0E-0B1969DE3B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,14 @@ Global
 		{5879CEE0-4E97-47CE-85AC-4D5487927664}.Release|x64.Build.0 = Release|x64
 		{5879CEE0-4E97-47CE-85AC-4D5487927664}.Release|x86.ActiveCfg = Release|Win32
 		{5879CEE0-4E97-47CE-85AC-4D5487927664}.Release|x86.Build.0 = Release|Win32
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Debug|x64.ActiveCfg = Debug|x64
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Debug|x64.Build.0 = Debug|x64
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Debug|x86.Build.0 = Debug|Win32
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Release|x64.ActiveCfg = Release|x64
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Release|x64.Build.0 = Release|x64
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Release|x86.ActiveCfg = Release|Win32
+		{DEFEFDD1-6604-45FA-8B63-CFE504F7102F}.Release|x86.Build.0 = Release|Win32
 		{94E11B26-049B-4D71-9D0E-0B1969DE3B55}.Debug|x64.ActiveCfg = Debug|x64
 		{94E11B26-049B-4D71-9D0E-0B1969DE3B55}.Debug|x64.Build.0 = Debug|x64
 		{94E11B26-049B-4D71-9D0E-0B1969DE3B55}.Debug|x86.ActiveCfg = Debug|Win32

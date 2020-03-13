@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+G:/mariadb-connector-c-3.1.6-src/cmake/export.cmake
+G:/mariadb-connector-c-3.1.6-src/cmake/sign.cmake
+G:/mariadb-connector-c-3.1.6-src/cmake/symlink.cmake
+G:/mariadb-connector-c-3.1.6-src/libmariadb/CMakeLists.txt
+G:/mariadb-connector-c-3.1.6-src/libmariadb/ma_client_plugin.c.in
+G:/mariadb-connector-c-3.1.6-src/win/resource.rc.in
