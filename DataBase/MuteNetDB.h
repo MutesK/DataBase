@@ -12,3 +12,8 @@
 
 #define OUT
 #define IN
+
+#if defined(_WIN32) || defined(_WIN64)
+#else
+#define abstract
+#endif
