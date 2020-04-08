@@ -1,0 +1,1185 @@
+Determining if files select.h exist failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c918e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c918e.dir/build.make CMakeFiles/cmTC_c918e.dir/build
+Building C object CMakeFiles/cmTC_c918e.dir/HAVE_SELECT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c918e.dir/HAVE_SELECT_H.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c:2:10: fatal error: 'select.h' file not found
+#include <select.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c918e.dir/HAVE_SELECT_H.c.o] Error 1
+make: *** [cmTC_c918e/fast] Error 2
+
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(void){return 0;}
+
+Determining if files ucontext.h exist failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7210f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7210f.dir/build.make CMakeFiles/cmTC_7210f.dir/build
+Building C object CMakeFiles/cmTC_7210f.dir/HAVE_UCONTEXT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7210f.dir/HAVE_UCONTEXT_H.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_UCONTEXT_H.c
+In file included from /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_UCONTEXT_H.c:2:
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7210f.dir/HAVE_UCONTEXT_H.c.o] Error 1
+make: *** [cmTC_7210f/fast] Error 2
+
+
+Source:
+/* */
+#include <ucontext.h>
+
+
+int main(void){return 0;}
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73096/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_73096.dir/build.make CMakeFiles/cmTC_73096.dir/build
+Building C object CMakeFiles/cmTC_73096.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_73096.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+Linking C executable cmTC_73096
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73096.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alloca -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_73096.dir/CheckFunctionExists.c.o  -o cmTC_73096 
+Undefined symbols for architecture x86_64:
+  "_alloca", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_73096] Error 1
+make: *** [cmTC_73096/fast] Error 2
+
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9187/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9187.dir/build.make CMakeFiles/cmTC_e9187.dir/build
+Building C object CMakeFiles/cmTC_e9187.dir/SIZEOF_UCHAR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e9187.dir/SIZEOF_UCHAR.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:26:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:27:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:28:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:29:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:30:12: error: use of undeclared identifier 'uchar'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_e9187.dir/SIZEOF_UCHAR.c.o] Error 1
+make: *** [cmTC_e9187/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ulong failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b029d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b029d.dir/build.make CMakeFiles/cmTC_b029d.dir/build
+Building C object CMakeFiles/cmTC_b029d.dir/SIZEOF_ULONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b029d.dir/SIZEOF_ULONG.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:26:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:26:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b029d.dir/SIZEOF_ULONG.c.o] Error 1
+make: *** [cmTC_b029d/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ulong))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee524/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ee524.dir/build.make CMakeFiles/cmTC_ee524.dir/build
+Building C object CMakeFiles/cmTC_ee524.dir/SIZEOF_INT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ee524.dir/SIZEOF_INT8.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:26:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:26:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_ee524.dir/SIZEOF_INT8.c.o] Error 1
+make: *** [cmTC_ee524/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4f45/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f4f45.dir/build.make CMakeFiles/cmTC_f4f45.dir/build
+Building C object CMakeFiles/cmTC_f4f45.dir/SIZEOF_UINT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f4f45.dir/SIZEOF_UINT8.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:26:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:27:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:28:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:29:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:30:12: error: use of undeclared identifier 'uint8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_f4f45.dir/SIZEOF_UINT8.c.o] Error 1
+make: *** [cmTC_f4f45/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3ad8/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f3ad8.dir/build.make CMakeFiles/cmTC_f3ad8.dir/build
+Building C object CMakeFiles/cmTC_f3ad8.dir/SIZEOF_INT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f3ad8.dir/SIZEOF_INT16.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:26:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:27:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:28:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:29:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:30:12: error: use of undeclared identifier 'int16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_f3ad8.dir/SIZEOF_INT16.c.o] Error 1
+make: *** [cmTC_f3ad8/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46a21/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46a21.dir/build.make CMakeFiles/cmTC_46a21.dir/build
+Building C object CMakeFiles/cmTC_46a21.dir/SIZEOF_UINT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_46a21.dir/SIZEOF_UINT16.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:26:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:27:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:28:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:29:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:30:12: error: use of undeclared identifier 'uint16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_46a21.dir/SIZEOF_UINT16.c.o] Error 1
+make: *** [cmTC_46a21/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22ecf/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22ecf.dir/build.make CMakeFiles/cmTC_22ecf.dir/build
+Building C object CMakeFiles/cmTC_22ecf.dir/SIZEOF_INT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22ecf.dir/SIZEOF_INT32.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:26:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:27:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:28:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:29:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:30:12: error: use of undeclared identifier 'int32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_22ecf.dir/SIZEOF_INT32.c.o] Error 1
+make: *** [cmTC_22ecf/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05be2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_05be2.dir/build.make CMakeFiles/cmTC_05be2.dir/build
+Building C object CMakeFiles/cmTC_05be2.dir/SIZEOF_UINT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_05be2.dir/SIZEOF_UINT32.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:26:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:27:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:28:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:29:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:30:12: error: use of undeclared identifier 'uint32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_05be2.dir/SIZEOF_UINT32.c.o] Error 1
+make: *** [cmTC_05be2/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_512a2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_512a2.dir/build.make CMakeFiles/cmTC_512a2.dir/build
+Building C object CMakeFiles/cmTC_512a2.dir/SIZEOF_INT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_512a2.dir/SIZEOF_INT64.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:26:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:27:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:28:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:29:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:30:12: error: use of undeclared identifier 'int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_512a2.dir/SIZEOF_INT64.c.o] Error 1
+make: *** [cmTC_512a2/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6559a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6559a.dir/build.make CMakeFiles/cmTC_6559a.dir/build
+Building C object CMakeFiles/cmTC_6559a.dir/SIZEOF_UINT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6559a.dir/SIZEOF_UINT64.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:26:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:27:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:28:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:29:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:30:12: error: use of undeclared identifier 'uint64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_6559a.dir/SIZEOF_UINT64.c.o] Error 1
+make: *** [cmTC_6559a/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6259c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6259c.dir/build.make CMakeFiles/cmTC_6259c.dir/build
+Building C object CMakeFiles/cmTC_6259c.dir/SIZEOF_SOCKLEN_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6259c.dir/SIZEOF_SOCKLEN_T.c.o   -c /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:26:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:28:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:29:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:30:12: error: use of undeclared identifier 'socklen_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_6259c.dir/SIZEOF_SOCKLEN_T.c.o] Error 1
+make: *** [cmTC_6259c/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d254a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d254a.dir/build.make CMakeFiles/cmTC_d254a.dir/build
+Building C object CMakeFiles/cmTC_d254a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d254a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d254a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d254a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d254a.dir/CheckFunctionExists.c.o  -o cmTC_d254a 
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d254a] Error 1
+make: *** [cmTC_d254a/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0fefb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0fefb.dir/build.make CMakeFiles/cmTC_0fefb.dir/build
+Building C object CMakeFiles/cmTC_0fefb.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0fefb.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0fefb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fefb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0fefb.dir/CheckFunctionExists.c.o  -o cmTC_0fefb -lnsl_r 
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0fefb] Error 1
+make: *** [cmTC_0fefb/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feaee/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_feaee.dir/build.make CMakeFiles/cmTC_feaee.dir/build
+Building C object CMakeFiles/cmTC_feaee.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_feaee.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_feaee
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feaee.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_feaee.dir/CheckFunctionExists.c.o  -o cmTC_feaee -lnsl 
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_feaee] Error 1
+make: *** [cmTC_feaee/fast] Error 2
+
+
+

@@ -1,0 +1,16 @@
+/usr/local/lib/libhiredis.0.15.dylib
+/usr/local/lib/libhiredis.dylib
+/usr/local/include/hiredis/hiredis.h
+/usr/local/include/hiredis/read.h
+/usr/local/include/hiredis/sds.h
+/usr/local/include/hiredis/async.h
+/usr/local/include/hiredis/alloc.h
+/usr/local/include/hiredis/adapters/glib.h
+/usr/local/include/hiredis/adapters/libev.h
+/usr/local/include/hiredis/adapters/ae.h
+/usr/local/include/hiredis/adapters/libevent.h
+/usr/local/include/hiredis/adapters/libuv.h
+/usr/local/include/hiredis/adapters/macosx.h
+/usr/local/include/hiredis/adapters/qt.h
+/usr/local/include/hiredis/adapters/ivykis.h
+/usr/local/lib/pkgconfig/hiredis.pc

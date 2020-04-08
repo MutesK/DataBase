@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RedisConnector"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\DataBase\;CMake Files\..\External-Library\;CMake Files\..\External-Library\hiredis-master\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedisConnector">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/RedisConnector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 RedisConnector"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedisConnector/fast">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/RedisConnector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 RedisConnector/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test/fast">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/libhiredis.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/libhiredis.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataBase">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/libDataBase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 DataBase"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataBase/fast">
+				<Option output="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/libDataBase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 DataBase/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junminkim/Workspace/DataBase/RedisConnector/cmake-build-debug/build/DataBase/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBCommand.cpp">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBCommand.h">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBConnection.cpp">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBConnection.h">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBConnectionService.cpp">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBConnectionService.h">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBResultSet.cpp">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/DataBase/DBResultSet.h">
+			<Option target="DataBase"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/alloc.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/alloc.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/async.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/async.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/dict.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/dict.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/hiredis.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/hiredis.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/net.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/net.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/read.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/read.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/sds.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/sds.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/sockcompat.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/sockcompat.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/External-Library/hiredis-master/test.c">
+			<Option target="hiredis-test"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/RedisConnector/RedisConnector.cpp">
+			<Option target="RedisConnector"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/RedisConnector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/RedisConnector/../DataBase/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\DataBase\"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/RedisConnector/../External-Library/hiredis-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\External-Library\hiredis-master\"/>
+		</Unit>
+		<Unit filename="/Users/junminkim/Workspace/DataBase/RedisConnector/../External-Library/hiredis-master/hiredis.pc.in">
+			<Option virtualFolder="CMake Files\..\External-Library\hiredis-master\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

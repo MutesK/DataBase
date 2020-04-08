@@ -1,0 +1,1185 @@
+Determining if files select.h exist failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6355/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a6355.dir/build.make CMakeFiles/cmTC_a6355.dir/build
+Building C object CMakeFiles/cmTC_a6355.dir/HAVE_SELECT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a6355.dir/HAVE_SELECT_H.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c:2:10: fatal error: 'select.h' file not found
+#include <select.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a6355.dir/HAVE_SELECT_H.c.o] Error 1
+make: *** [cmTC_a6355/fast] Error 2
+
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(void){return 0;}
+
+Determining if files ucontext.h exist failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0a23/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0a23.dir/build.make CMakeFiles/cmTC_b0a23.dir/build
+Building C object CMakeFiles/cmTC_b0a23.dir/HAVE_UCONTEXT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b0a23.dir/HAVE_UCONTEXT_H.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_UCONTEXT_H.c
+In file included from /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_UCONTEXT_H.c:2:
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b0a23.dir/HAVE_UCONTEXT_H.c.o] Error 1
+make: *** [cmTC_b0a23/fast] Error 2
+
+
+Source:
+/* */
+#include <ucontext.h>
+
+
+int main(void){return 0;}
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_acb72/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_acb72.dir/build.make CMakeFiles/cmTC_acb72.dir/build
+Building C object CMakeFiles/cmTC_acb72.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alloca -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_acb72.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+Linking C executable cmTC_acb72
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acb72.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=alloca -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_acb72.dir/CheckFunctionExists.c.o  -o cmTC_acb72 
+Undefined symbols for architecture x86_64:
+  "_alloca", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_acb72] Error 1
+make: *** [cmTC_acb72/fast] Error 2
+
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59199/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_59199.dir/build.make CMakeFiles/cmTC_59199.dir/build
+Building C object CMakeFiles/cmTC_59199.dir/SIZEOF_UCHAR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_59199.dir/SIZEOF_UCHAR.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:26:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:27:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:28:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:29:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:30:12: error: use of undeclared identifier 'uchar'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_59199.dir/SIZEOF_UCHAR.c.o] Error 1
+make: *** [cmTC_59199/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ulong failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca8c3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca8c3.dir/build.make CMakeFiles/cmTC_ca8c3.dir/build
+Building C object CMakeFiles/cmTC_ca8c3.dir/SIZEOF_ULONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ca8c3.dir/SIZEOF_ULONG.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:26:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:26:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_ca8c3.dir/SIZEOF_ULONG.c.o] Error 1
+make: *** [cmTC_ca8c3/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ulong))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42548/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_42548.dir/build.make CMakeFiles/cmTC_42548.dir/build
+Building C object CMakeFiles/cmTC_42548.dir/SIZEOF_INT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_42548.dir/SIZEOF_INT8.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:26:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:26:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_42548.dir/SIZEOF_INT8.c.o] Error 1
+make: *** [cmTC_42548/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82691/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_82691.dir/build.make CMakeFiles/cmTC_82691.dir/build
+Building C object CMakeFiles/cmTC_82691.dir/SIZEOF_UINT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_82691.dir/SIZEOF_UINT8.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:26:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:27:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:28:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:29:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:30:12: error: use of undeclared identifier 'uint8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_82691.dir/SIZEOF_UINT8.c.o] Error 1
+make: *** [cmTC_82691/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9903/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b9903.dir/build.make CMakeFiles/cmTC_b9903.dir/build
+Building C object CMakeFiles/cmTC_b9903.dir/SIZEOF_INT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b9903.dir/SIZEOF_INT16.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:26:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:27:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:28:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:29:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:30:12: error: use of undeclared identifier 'int16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b9903.dir/SIZEOF_INT16.c.o] Error 1
+make: *** [cmTC_b9903/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12fb4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_12fb4.dir/build.make CMakeFiles/cmTC_12fb4.dir/build
+Building C object CMakeFiles/cmTC_12fb4.dir/SIZEOF_UINT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_12fb4.dir/SIZEOF_UINT16.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:26:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:27:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:28:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:29:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:30:12: error: use of undeclared identifier 'uint16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_12fb4.dir/SIZEOF_UINT16.c.o] Error 1
+make: *** [cmTC_12fb4/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa207/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aa207.dir/build.make CMakeFiles/cmTC_aa207.dir/build
+Building C object CMakeFiles/cmTC_aa207.dir/SIZEOF_INT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_aa207.dir/SIZEOF_INT32.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:26:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:27:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:28:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:29:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:30:12: error: use of undeclared identifier 'int32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_aa207.dir/SIZEOF_INT32.c.o] Error 1
+make: *** [cmTC_aa207/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3bb59/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3bb59.dir/build.make CMakeFiles/cmTC_3bb59.dir/build
+Building C object CMakeFiles/cmTC_3bb59.dir/SIZEOF_UINT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3bb59.dir/SIZEOF_UINT32.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:26:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:27:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:28:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:29:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:30:12: error: use of undeclared identifier 'uint32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_3bb59.dir/SIZEOF_UINT32.c.o] Error 1
+make: *** [cmTC_3bb59/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5db03/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5db03.dir/build.make CMakeFiles/cmTC_5db03.dir/build
+Building C object CMakeFiles/cmTC_5db03.dir/SIZEOF_INT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5db03.dir/SIZEOF_INT64.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:26:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:27:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:28:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:29:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:30:12: error: use of undeclared identifier 'int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_5db03.dir/SIZEOF_INT64.c.o] Error 1
+make: *** [cmTC_5db03/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be393/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_be393.dir/build.make CMakeFiles/cmTC_be393.dir/build
+Building C object CMakeFiles/cmTC_be393.dir/SIZEOF_UINT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_be393.dir/SIZEOF_UINT64.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:26:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:27:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:28:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:29:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:30:12: error: use of undeclared identifier 'uint64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_be393.dir/SIZEOF_UINT64.c.o] Error 1
+make: *** [cmTC_be393/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45e87/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_45e87.dir/build.make CMakeFiles/cmTC_45e87.dir/build
+Building C object CMakeFiles/cmTC_45e87.dir/SIZEOF_SOCKLEN_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_45e87.dir/SIZEOF_SOCKLEN_T.c.o   -c /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:26:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:28:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:29:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:30:12: error: use of undeclared identifier 'socklen_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_45e87.dir/SIZEOF_SOCKLEN_T.c.o] Error 1
+make: *** [cmTC_45e87/fast] Error 2
+
+
+/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b344f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b344f.dir/build.make CMakeFiles/cmTC_b344f.dir/build
+Building C object CMakeFiles/cmTC_b344f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b344f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b344f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b344f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b344f.dir/CheckFunctionExists.c.o  -o cmTC_b344f 
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b344f] Error 1
+make: *** [cmTC_b344f/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b2f4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b2f4.dir/build.make CMakeFiles/cmTC_2b2f4.dir/build
+Building C object CMakeFiles/cmTC_2b2f4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2b2f4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b2f4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b2f4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b2f4.dir/CheckFunctionExists.c.o  -o cmTC_2b2f4 -lnsl_r 
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2b2f4] Error 1
+make: *** [cmTC_2b2f4/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1e97/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d1e97.dir/build.make CMakeFiles/cmTC_d1e97.dir/build
+Building C object CMakeFiles/cmTC_d1e97.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d1e97.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1e97
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e97.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1e97.dir/CheckFunctionExists.c.o  -o cmTC_d1e97 -lnsl 
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d1e97] Error 1
+make: *** [cmTC_d1e97/fast] Error 2
+
+
+

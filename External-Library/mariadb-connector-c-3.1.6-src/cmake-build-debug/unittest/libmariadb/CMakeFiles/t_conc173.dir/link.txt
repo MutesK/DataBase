@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/t_conc173.dir/t_conc173.c.o  -o t_conc173 ../mytap/libcctap.a libma_getopt.a ../../libmariadb/libmariadbclient.a /usr/lib/libiconv.dylib /usr/local/lib/libssl.dylib /usr/local/lib/libcrypto.dylib 

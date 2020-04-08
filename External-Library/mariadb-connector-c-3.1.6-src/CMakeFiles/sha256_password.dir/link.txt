@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -O2 -g -DNDEBUG -DDBUG_OFF -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -bundle -Wl,-headerpad_max_install_names  -o sha256_password.so CMakeFiles/sha256_password.dir/plugins/auth/sha256_pw.c.o  /usr/local/lib/libssl.dylib /usr/local/lib/libcrypto.dylib 

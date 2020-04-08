@@ -1,0 +1,72 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/junminkim/Workspace/DataBase/MariaDBConnector
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target "dialog".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:30 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target
+  "client_ed25519".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:54 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target
+  "caching_sha2_password".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:70 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target
+  "sha256_password".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:81 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target
+  "auth_gssapi_client".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:106 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target
+  "mysql_clear_password".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/auth/CMakeLists.txt:123 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+CMake Error at /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/install_plugins.cmake:11 (INSTALL):
+  INSTALL TARGETS given no LIBRARY DESTINATION for module target "remote_io".
+Call Stack (most recent call first):
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/cmake/plugins.cmake:82 (INSTALL_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/io/CMakeLists.txt:7 (REGISTER_PLUGIN)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/plugins/CMakeLists.txt:7 (INCLUDE)
+  /Users/junminkim/Workspace/DataBase/External-Library/mariadb-connector-c-3.1.6-src/CMakeLists.txt:402 (INCLUDE)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/junminkim/Workspace/DataBase/MariaDBConnector/cmake-build-debug/CMakeFiles/CMakeError.log".

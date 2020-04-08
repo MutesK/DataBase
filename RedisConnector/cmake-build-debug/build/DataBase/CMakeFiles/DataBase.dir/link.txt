@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libDataBase.a  CMakeFiles/DataBase.dir/DBCommand.cpp.o CMakeFiles/DataBase.dir/DBConnection.cpp.o CMakeFiles/DataBase.dir/DBConnectionService.cpp.o CMakeFiles/DataBase.dir/DBResultSet.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libDataBase.a
